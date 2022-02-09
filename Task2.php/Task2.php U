@@ -1,0 +1,40 @@
+# WT_Spring2022
+<?php
+
+include "Control/results.php";
+?>
+
+
+
+<html>
+<head>
+</head>
+<body>
+<from action="Control/results.php" method="post">
+  Firstname
+<input type="text" name="fname">
+  Lastname
+<input type="text" name="lname"> 
+ Age
+<input type="text" name="age">
+Designation
+<input type="radio" name="designation" value="junior programmer"> Junior Programmer
+<input type="radio" name="designation" value="senior programmer"> Senior Programmer
+<input type="radio" name="designation" value="project lead"> Project Lead
+Preferred language
+<input type="checkbox" name="preferred language" value="java"> JAVA
+<input type="checkbox" name="Preferred language" value="php"> PHP
+<input type="checkbox" name="preferred language" value="c++"> C++
+ Email
+ <input type="text" name="email">
+  Password
+  <input type="text" name="pass"> 
+  please choose a file
+  <input type="text" name="choose file"> 
+  <input type="text" name="no file choosen">
+  
+  <input type="submit" name="Submit">
+  <input type="reset" name="Reset"> 
+</from>
+</body>
+</html>
